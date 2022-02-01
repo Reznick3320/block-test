@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+    margin: 0;
+
+}
+
+body {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.box-items {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-item {
+    width: 270px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    background-color: rgb(241, 241, 241);
+
+}
+
+
+.box-header {
+    color: rgb(80, 74, 74);
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.box-img {
+    margin-bottom: 10px;
+    
+}
+
+.box-name {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.box-price {
+    margin-bottom: 15px;
+}
+
+.box-price p{
+    font-size: 10px;
+    margin: 10px 0 5px 0;
+}
+
+.box-price_new  {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.box-price_old{
+    text-decoration: line-through;
+    font-size: 15px;
+    margin: 0;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 140px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #00a046;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
